@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    job1:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
       - run: echo ok
