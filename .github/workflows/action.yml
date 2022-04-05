@@ -1,0 +1,10 @@
+name: action demo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    job1:
+      - run: echo ok
